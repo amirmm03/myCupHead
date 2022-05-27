@@ -1,0 +1,16 @@
+.root {
+
+    //-fx-background-size: contain, contain, contain, contain, contain, contain, contain, contain;
+    -fx-background-position: top, bottom, bottom, bottom, bottom, bottom, bottom, bottom;
+    -fx-background-repeat: repeat-x, repeat-x, repeat-x, repeat-x, repeat-x, repeat-x, repeat-x, repeat-x;
+    -fx-background-image: url("../images/Background/birdhouse_bg_0008.png"),
+    url("../images/Background/birdhouse_bg_0007.png"),
+    url("../images/Background/birdhouse_bg_0006.png"),
+    url("../images/Background/birdhouse_bg_0005.png"),
+    url("../images/Background/birdhouse_bg_0004.png"),
+    url("../images/Background/birdhouse_bg_0003.png"),
+    url("../images/Background/birdhouse_bg_0002.png"),
+    url("../images/Background/birdhouse_bg_0001.png");
+
+
+}

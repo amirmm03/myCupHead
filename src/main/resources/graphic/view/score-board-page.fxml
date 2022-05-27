@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="700.0" prefWidth="1400.0" styleClass="backGround" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic.view.ScoreBoardPage">
+    <stylesheets>
+        <URL value="@../first-page.css" />
+    </stylesheets>
+   <center>
+      <TableView fx:id="tableView" prefHeight="528.0" prefWidth="1196.0" BorderPane.alignment="CENTER">
+        <columns>
+
+        </columns>
+         <BorderPane.margin>
+            <Insets bottom="200.0" left="550.0" right="550.0" top="200.0" />
+         </BorderPane.margin>
+      </TableView>
+   </center>
+   <bottom>
+      <VBox alignment="TOP_CENTER" prefHeight="51.0" prefWidth="1427.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button alignment="TOP_CENTER" mnemonicParsing="false" text="back" onMouseClicked="#back"/>
+         </children>
+      </VBox>
+   </bottom>
+
+</BorderPane>

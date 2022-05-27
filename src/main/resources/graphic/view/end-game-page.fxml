@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.text.Font?>
+<VBox alignment="CENTER" layoutX="550.0" layoutY="60.0" prefHeight="550.0" prefWidth="300.0" spacing="50.0"
+      xmlns="http://javafx.com/javafx/18" styleClass="menu" fx:controller="graphic.view.EndGamePage"
+      xmlns:fx="http://javafx.com/fxml/1">
+    <stylesheets>
+        <URL value="@../first-page.css"/>
+    </stylesheets>
+    <children>
+        <Label text="you won" alignment="BOTTOM_CENTER" contentDisplay="CENTER" prefHeight="74.0" prefWidth="431.0"
+               textAlignment="CENTER">
+            <font>
+                <Font name="Bradley Hand ITC" size="35.0"/>
+            </font>
+        </Label>
+        <Label text="score time" alignment="BOTTOM_CENTER" contentDisplay="CENTER" prefHeight="74.0" prefWidth="431.0"
+               textAlignment="CENTER">
+            <font>
+                <Font name="Bradley Hand ITC" size="35.0"/>
+            </font>
+        </Label>
+        <Label text="score time" alignment="BOTTOM_CENTER" contentDisplay="CENTER" prefHeight="74.0" prefWidth="431.0"
+               textAlignment="CENTER">
+            <font>
+                <Font name="Bradley Hand ITC" size="35.0"/>
+            </font>
+        </Label>
+        <Button mnemonicParsing="false" text="restart" onMouseClicked="#restart"/>
+        <Button mnemonicParsing="false" text="exit" onMouseClicked="#exit"/>
+    </children>
+</VBox>

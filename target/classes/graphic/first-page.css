@@ -1,0 +1,47 @@
+
+.backGround {
+    -fx-background-image: url(../images/loginBackground.jpg);
+}
+
+.button {
+    -fx-effect: dropshadow(one-pass-box, rgba(62, 32, 80, 0.2), 4, 7, 5, 5);
+    -fx-background-color: #07e5e5;
+    -fx-background-radius: 30;
+    -fx-font-family: Century;
+    -fx-font-size: 20;
+    -fx-text-fill: #043cf5;
+}
+
+.button:hover {
+    -fx-background-color: #076380;
+    -fx-text-fill: #27dcbc;
+}
+
+.button:pressed {
+    -fx-background-color: #562bef;
+}
+
+.text-field {
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-font-size: 20;
+    -fx-font-family: Century;
+    -fx-border-width: 1;
+    -fx-border-color: #000000;
+    -fx-border-radius: 30;
+    -fx-prompt-text-fill: #ad7272;
+}
+
+.guiding-text {
+    -fx-text-fill: #07e5e5;
+    -fx-background-color: #9021c4;
+    -fx-background-radius: 30;
+    -fx-font-family: Century;
+    -fx-font-size: 20;
+}
+
+.menu {
+    -fx-background-color: rgba(25, 139, 44, 0.44);
+    -fx-arc-width: 10;
+    -fx-arc-height: 10;
+
+}
